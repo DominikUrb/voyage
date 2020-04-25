@@ -6,4 +6,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('auth/', obtain_jwt_token),
     path('accounts/', include('accounts.urls')),
+    path('voyages/', include('voyages.urls')),
 ]

@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'corsheaders',
 
     'accounts',
+    'voyages',
 ]
 
 CORS_ORIGIN_WHITELIST = (
